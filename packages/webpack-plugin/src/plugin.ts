@@ -189,7 +189,7 @@ export class VuetifyPlugin {
         const cacheFile = cacheDir(file)
 
         await mkdirp(path.dirname(cacheFile))
-        await writeFile(cacheFile, `@use "${configFile}"\n@use "${target}"`)
+        await writeFile(cacheFile, `@use "${configFile}"\n@use "${target.replace(/\\/g, '/')}"`)
 
         return cacheFile
       })
