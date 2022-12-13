@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [2.0.1](https://github.com/vuetifyjs/vuetify-loader/compare/webpack-plugin-vuetify@2.0.0...webpack-plugin-vuetify@2.0.1) (2022-12-13)
+
+
+### Bug Fixes
+
+* backslash in forwarding vuetify SASS vars in windows machine ([a357816](https://github.com/vuetifyjs/vuetify-loader/commit/a357816a965c59ca9e8f9b3e44064e232d349eb7))
+
+
+
+
 ## [2.0.0](https://github.com/vuetifyjs/vuetify-loader/compare/webpack-plugin-vuetify@2.0.0-alpha.13...webpack-plugin-vuetify@2.0.0) (2022-10-13)
 
 
